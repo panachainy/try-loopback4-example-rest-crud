@@ -75,18 +75,42 @@ MIT
 
 ---
 
-# Generate model
+# Model
+
+## Relationships
+
+https://loopback.io/doc/en/lb4/Relations.html
+
+## Generate model
 
 `lb4 model [options] [<name>]`
 
-## example
+### example
 
-``
+`lb4 model`
 
-# Generate crud api
+and follow command for create new
+
+#### Entity
+
+is ralated to db
+
+#### Model
+
+is only business model
+
+## Generate crud api
 
 `lb4 rest-crud [options]`
 
-## example
+### example
 
 `lb4 rest-crud --config ./configs/rest-example.json`
+
+`lb4 rest-crud -c ./configs/rest-example.json`
+
+## Generate Repository
+
+### example
+
+`lb4 repository`
