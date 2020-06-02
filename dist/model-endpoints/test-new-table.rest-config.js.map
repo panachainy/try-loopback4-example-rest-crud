@@ -1,0 +1,1 @@
+{"version":3,"file":"test-new-table.rest-config.js","sourceRoot":"","sources":["../../src/model-endpoints/test-new-table.rest-config.ts"],"names":[],"mappings":";;AACA,sCAAuC;AAEvC,MAAM,MAAM,GAA2B;IACrC,KAAK,EAAE,qBAAY;IACnB,OAAO,EAAE,UAAU;IACnB,UAAU,EAAE,IAAI;IAChB,QAAQ,EAAE,eAAe;CAC1B,CAAC;AACF,MAAM,CAAC,OAAO,GAAG,MAAM,CAAC"}
