@@ -1,6 +1,6 @@
-import {Entity, model, property} from '@loopback/repository';
+import { Entity, model, property } from '@loopback/repository';
 
-@model({settings: {strict: false}})
+@model({ settings: { strict: false } })
 export class BucketDetails extends Entity {
   @property({
     type: 'number',
@@ -8,12 +8,6 @@ export class BucketDetails extends Entity {
     generated: true,
   })
   id?: number;
-
-  @property({
-    type: 'number',
-    required: true,
-  })
-  productId: number;
 
   @property({
     type: 'number',
