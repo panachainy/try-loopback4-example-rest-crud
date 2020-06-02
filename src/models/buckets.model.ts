@@ -1,4 +1,5 @@
-import {Entity, model, property} from '@loopback/repository';
+import {Entity, model, property, hasMany} from '@loopback/repository';
+import {BucketDetails} from './bucket-details.model';
 
 @model({settings: {strict: false}})
 export class Buckets extends Entity {
@@ -21,6 +22,8 @@ export class Buckets extends Entity {
   })
   isComplete: boolean;
 
+  @hasMany(() => BucketDetails)
+  bucketDetails: BucketDetails[];
   // Define well-known properties here
 
   // Indexer property to allow additional data

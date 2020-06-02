@@ -15,6 +15,10 @@ export class BucketDetails extends Entity {
   })
   price: number;
 
+  @property({
+    type: 'number',
+  })
+  bucketsId?: number;
   // Define well-known properties here
 
   // Indexer property to allow additional data
