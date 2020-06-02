@@ -1,7 +1,9 @@
 {
   "ids": {
     "Todo": 8,
-    "TestNewTable": 2
+    "TestNewTable": 2,
+    "Buckets": 2,
+    "BucketDetails": 3
   },
   "models": {
     "Todo": {
@@ -15,6 +17,13 @@
     },
     "TestNewTable": {
       "1": "{\"name\":\"asda\",\"surname\":\"string\",\"id\":1}"
+    },
+    "Buckets": {
+      "1": "{\"createDate\":\"2020-06-02T13:14:41.160Z\",\"isComplete\":true,\"additionalProp1\":{},\"id\":1}"
+    },
+    "BucketDetails": {
+      "1": "{\"price\":200,\"bucketsId\":1,\"id\":1}",
+      "2": "{\"price\":210,\"bucketsId\":1,\"id\":2}"
     }
   }
 }
