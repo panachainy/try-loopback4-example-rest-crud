@@ -4,6 +4,7 @@ export declare class Todo extends Entity {
     title: string;
     desc?: string;
     isComplete?: boolean;
+    test: string;
     constructor(data?: Partial<Todo>);
 }
 export interface TodoRelations {

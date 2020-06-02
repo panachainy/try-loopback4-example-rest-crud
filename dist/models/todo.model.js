@@ -40,6 +40,13 @@ let Todo = /** @class */ (() => {
         }),
         tslib_1.__metadata("design:type", Boolean)
     ], Todo.prototype, "isComplete", void 0);
+    tslib_1.__decorate([
+        repository_1.property({
+            type: 'string',
+            default: 'testValue',
+        }),
+        tslib_1.__metadata("design:type", String)
+    ], Todo.prototype, "test", void 0);
     Todo = tslib_1.__decorate([
         repository_1.model(),
         tslib_1.__metadata("design:paramtypes", [Object])

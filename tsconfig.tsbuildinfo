@@ -1727,7 +1727,7 @@
         "affectsGlobalScope": false
       },
       "./src/models/todo.model.ts": {
-        "version": "992f9e588424f635b8b7155d961a5ec52e8d99fb70644e324eef46bc2dff831e",
+        "version": "d5ea2eb0352304c66d8c4bde5d9d3385b685dd7ee9bec475691e4d0b932d94d0",
         "signature": "01dd6faddbbc8b505cd764be82d717b5b6cd46749b96bd01212c4a4897e45750",
         "affectsGlobalScope": false
       },
