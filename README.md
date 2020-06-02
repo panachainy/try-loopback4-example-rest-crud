@@ -72,3 +72,21 @@ See
 ## License
 
 MIT
+
+---
+
+# Generate model
+
+`lb4 model [options] [<name>]`
+
+## example
+
+``
+
+# Generate crud api
+
+`lb4 rest-crud [options]`
+
+## example
+
+`lb4 rest-crud --config ./configs/rest-example.json`

@@ -1,6 +1,7 @@
 {
   "ids": {
-    "Todo": 8
+    "Todo": 8,
+    "TestNewTable": 2
   },
   "models": {
     "Todo": {
@@ -11,6 +12,9 @@
       "5": "{\"title\":\"crush rebel scum\",\"desc\":\"Every.Last.One.\",\"id\":5,\"test\":\"testx\"}",
       "6": "{\"title\":\"crush rebel scum\",\"desc\":\"Every.Last.One.\",\"id\":6}",
       "7": "{\"title\":\"string\",\"desc\":\"string\",\"isComplete\":true,\"test\":\"testValue\",\"id\":7}"
+    },
+    "TestNewTable": {
+      "1": "{\"name\":\"asda\",\"surname\":\"string\",\"id\":1}"
     }
   }
 }
