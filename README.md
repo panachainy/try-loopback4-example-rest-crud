@@ -105,9 +105,7 @@ is only business model
 
 ### example
 
-`lb4 rest-crud --config ./configs/rest-example.json`
-
-`lb4 rest-crud -c ./configs/rest-example.json`
+`lb4 rest-crud`
 
 ## Generate Repository
 
