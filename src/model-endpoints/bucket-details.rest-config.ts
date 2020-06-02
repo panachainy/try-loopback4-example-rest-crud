@@ -1,10 +1,10 @@
 import {ModelCrudRestApiConfig} from '@loopback/rest-crud';
-import {TestNewTable} from '../models';
+import {BucketDetails} from '../models';
 
 const config: ModelCrudRestApiConfig = {
-  model: TestNewTable,
+  model: BucketDetails,
   pattern: 'CrudRest',
   dataSource: 'db',
-  basePath: '/test-new-tables',
+  basePath: '/bucket-details',
 };
 module.exports = config;
