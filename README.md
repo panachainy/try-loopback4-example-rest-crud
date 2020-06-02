@@ -77,10 +77,6 @@ MIT
 
 # Model
 
-## Relationships
-
-https://loopback.io/doc/en/lb4/Relations.html
-
 ## Generate model
 
 `lb4 model [options] [<name>]`
@@ -112,3 +108,7 @@ is only business model
 ### example
 
 `lb4 repository`
+
+## Relationships
+
+https://loopback.io/doc/en/lb4/Relations.html
