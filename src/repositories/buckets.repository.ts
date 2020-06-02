@@ -8,9 +8,7 @@ export class BucketsRepository extends DefaultCrudRepository<
   typeof Buckets.prototype.id,
   BucketsRelations
 > {
-  constructor(
-    @inject('datasources.db') dataSource: DbDataSource,
-  ) {
+  constructor(@inject('datasources.db') dataSource: DbDataSource) {
     super(Buckets, dataSource);
   }
 }
