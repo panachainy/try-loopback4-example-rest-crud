@@ -112,3 +112,13 @@ is only business model
 ## Relationships
 
 https://loopback.io/doc/en/lb4/Relations.html
+
+# Database
+
+## Postgresql
+
+### example
+
+`lb4 datasource`
+
+`postgres://admin:1234@localhost/lbdb`

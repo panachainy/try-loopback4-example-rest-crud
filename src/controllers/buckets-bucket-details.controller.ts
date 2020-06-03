@@ -15,16 +15,14 @@ import {
   post,
   requestBody,
 } from '@loopback/rest';
-import {
-  Buckets,
-  BucketDetails,
-} from '../models';
+import {Buckets, BucketDetails} from '../models';
 import {BucketsRepository} from '../repositories';
 
 export class BucketsBucketDetailsController {
   constructor(
-    @repository(BucketsRepository) protected bucketsRepository: BucketsRepository,
-  ) { }
+    @repository(BucketsRepository)
+    protected bucketsRepository: BucketsRepository,
+  ) {}
 
   @get('/buckets/{id}/bucket-details', {
     responses: {
@@ -49,7 +47,9 @@ export class BucketsBucketDetailsController {
     responses: {
       '200': {
         description: 'Buckets model instance',
-        content: {'application/json': {schema: getModelSchemaRef(BucketDetails)}},
+        content: {
+          'application/json': {schema: getModelSchemaRef(BucketDetails)},
+        },
       },
     },
   })
@@ -61,11 +61,12 @@ export class BucketsBucketDetailsController {
           schema: getModelSchemaRef(BucketDetails, {
             title: 'NewBucketDetailsInBuckets',
             exclude: ['id'],
-            optional: ['bucketsId']
+            optional: ['bucketsId'],
           }),
         },
       },
-    }) bucketDetails: Omit<BucketDetails, 'id'>,
+    })
+    bucketDetails: Omit<BucketDetails, 'id'>,
   ): Promise<BucketDetails> {
     return this.bucketsRepository.bucketDetails(id).create(bucketDetails);
   }
@@ -88,7 +89,8 @@ export class BucketsBucketDetailsController {
       },
     })
     bucketDetails: Partial<BucketDetails>,
-    @param.query.object('where', getWhereSchemaFor(BucketDetails)) where?: Where<BucketDetails>,
+    @param.query.object('where', getWhereSchemaFor(BucketDetails))
+    where?: Where<BucketDetails>,
   ): Promise<Count> {
     return this.bucketsRepository.bucketDetails(id).patch(bucketDetails, where);
   }
@@ -103,7 +105,8 @@ export class BucketsBucketDetailsController {
   })
   async delete(
     @param.path.number('id') id: number,
-    @param.query.object('where', getWhereSchemaFor(BucketDetails)) where?: Where<BucketDetails>,
+    @param.query.object('where', getWhereSchemaFor(BucketDetails))
+    where?: Where<BucketDetails>,
   ): Promise<Count> {
     return this.bucketsRepository.bucketDetails(id).delete(where);
   }

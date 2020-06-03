@@ -1736,9 +1736,24 @@
         "signature": "a8d89cf1f1827511fe7e4db7f7ff9765c5b16285418c001e1e42c0f42aea378b",
         "affectsGlobalScope": false
       },
+      "./src/models/products.model.ts": {
+        "version": "50188a3216d2c24735d41beca0b63a4f4303bb07ad25b5f026f8d4ad35bf6d16",
+        "signature": "90540cad631231de7846a9ca57efa3508f8883612a8e43bbea4349add4863f17",
+        "affectsGlobalScope": false
+      },
+      "./src/models/bucket-details.model.ts": {
+        "version": "7b4476aa5fb145e9af3e3ab9a133f2bd149fe1affae8cd9d59eea89c04252572",
+        "signature": "860e2a3af18c8eb241ebcdab100ff39d23a304346c2da1757e31a9a0b47ca5f1",
+        "affectsGlobalScope": false
+      },
+      "./src/models/buckets.model.ts": {
+        "version": "df755a6552cedb4c48e22e66184d55a015852f886883ebfa93082bb208ee66b5",
+        "signature": "94e747c47ea3d68b53ce13649225d6f8449eec1b2c6c18db669b7e6b1a3a978c",
+        "affectsGlobalScope": false
+      },
       "./src/models/index.ts": {
-        "version": "d7e59e926c928bbfd7cc326192886e456bc0e0765d939aad70ad55bd0a1c631a",
-        "signature": "82643bd781ff9929a03ec0aa6a1e7c30215f8aafdabf64440be4ad0819d5d686",
+        "version": "ecc9ec44ae6761d0cc1e24453f1016ee248622e3cd9b748c94dd8ec9245bf9b1",
+        "signature": "a54238bf582f0fbd53bbc730c2571c70cae1800666d6597f60ac0945c42db46f",
         "affectsGlobalScope": false
       },
       "./src/__tests__/helpers.ts": {
@@ -1851,18 +1866,78 @@
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
+      "./src/datasources/lbdb.datasource.ts": {
+        "version": "8bcaaeefbeeeeef22c903346c04e7a29b496df3d15ea1c13f320a524d96a5c0b",
+        "signature": "2a94aa0c3731d06694a6c8c55096aaea8123b9fa09d771427d162e3b97d85e97",
+        "affectsGlobalScope": false
+      },
+      "./src/datasources/index.ts": {
+        "version": "a31504de3a0c7f5177f101bd3f287ef0be4b7bc648332929e4cb32830dcdb647",
+        "signature": "2b588c8de46f01cd0abbb41b8f01c261b3a150e024fb154a070c2403b8941342",
+        "affectsGlobalScope": false
+      },
+      "./src/repositories/bucket-details.repository.ts": {
+        "version": "25efcd870808c0cf2aecd1cb25111de3e59a35c34791b06c46eeebb83e366815",
+        "signature": "60d8576f551cf9690956c0a4a15ff6b944668c358f4d6523cf334b617db5bc4a",
+        "affectsGlobalScope": false
+      },
+      "./src/repositories/buckets.repository.ts": {
+        "version": "c6c14c42647313a1b560d3d2f13b1cadd3ec5dafe5fc508e517d1a5e8ce2b175",
+        "signature": "07244158ac68f095d8a7793ccbf26e8f1e3528caf538a11bb41a6d7f5f949fff",
+        "affectsGlobalScope": false
+      },
+      "./src/repositories/products.repository.ts": {
+        "version": "6d5d141a71a120635d2f798a395dc3d03c158fa3e60e37816f39f2b4acdc9599",
+        "signature": "4e3b8eafc48b6aa9b38f100914c7d92523dcaac9ce442a3ea785e92bcf41e5a7",
+        "affectsGlobalScope": false
+      },
+      "./src/repositories/test-new-table.repository.ts": {
+        "version": "838ec8af0f8de65cc9522256fba19e04288266fa4f4c1f2a3508b9c0105d88ee",
+        "signature": "1af84ca774e327528dc8556f6b0ce1a9daae7ad880098c2a36270f6ccc988616",
+        "affectsGlobalScope": false
+      },
+      "./src/repositories/todo.repository.ts": {
+        "version": "631846ec0c6ce7b7edc6c94c5e283a04e6575123904860c0bce4ce2359dba78b",
+        "signature": "53d523b32061fd518856eeb48faa0a67d46dd893495e413c49dc7eed56045c90",
+        "affectsGlobalScope": false
+      },
+      "./src/repositories/index.ts": {
+        "version": "a92296411f8a94664fedd8b2e0448772c1276a6354ae1875e1cbe5549388f80e",
+        "signature": "a92296411f8a94664fedd8b2e0448772c1276a6354ae1875e1cbe5549388f80e",
+        "affectsGlobalScope": false
+      },
+      "./src/controllers/buckets-bucket-details.controller.ts": {
+        "version": "0ef97f0f073206c9b9dc6ffd64bf2464419e9ff3961ba17d51eb39890e1af772",
+        "signature": "aa49a082a57dc67a9a92320fd082a9c64704164c81303154d44197014e0ffc71",
+        "affectsGlobalScope": false
+      },
+      "./src/controllers/index.ts": {
+        "version": "5fc73180c73b760e1ce9f683eec1930c99e5470cf0c09750a449bf2482226fc6",
+        "signature": "5fc73180c73b760e1ce9f683eec1930c99e5470cf0c09750a449bf2482226fc6",
+        "affectsGlobalScope": false
+      },
       "./src/datasources/db.datasource.ts": {
         "version": "35ab540519862d11c8a3093071d8831205adb5b8591bd1f9b72f23376b43b2a5",
         "signature": "116bf4deff55c4f0be072d163a93a58358c03473df037dc9511884c0d6757921",
         "affectsGlobalScope": false
       },
-      "./src/datasources/index.ts": {
-        "version": "4eba0bb69a38278d6dd088741ac655aa1153b8cfa3b5173d5408964331695880",
-        "signature": "834b70c56280af742429c81a7c992c940426144605c9604c22ffd68a9c327619",
+      "./src/model-endpoints/bucket-details.rest-config.ts": {
+        "version": "20e71d7d97ea3d47aae514a8b6a08904faae0029ea39e7e12fbd68fb2ec89820",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "./src/model-endpoints/buckets.rest-config.ts": {
+        "version": "f2e624f6c2739038e484122b390e3833caa19991ce886568725e907fcd4e0062",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "./src/model-endpoints/products.rest-config.ts": {
+        "version": "ee88363f1cae71b7a688a4a9d8bcb90e1ff74b4024a6a8c21c10336f13943ba4",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
       "./src/model-endpoints/test-new-table.rest-config.ts": {
-        "version": "42890f5f1cee7d876d5dcae7ce401a0c3b9d6fa8e5feb65c5ba087ff4464e067",
+        "version": "57b3b87b1c4ddec587f38f35b0dbb076a5e97e2846a7d985b6435fed57609a85",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
@@ -4666,6 +4741,19 @@
         "./node_modules/@types/node/util.d.ts",
         "./src/sequence.ts"
       ],
+      "./src/controllers/buckets-bucket-details.controller.ts": [
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./node_modules/@loopback/rest/dist/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/models/index.ts",
+        "./src/repositories/index.ts"
+      ],
+      "./src/controllers/index.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/controllers/buckets-bucket-details.controller.ts"
+      ],
       "./src/datasources/db.datasource.ts": [
         "./node_modules/@loopback/core/dist/index.d.ts",
         "./node_modules/@loopback/repository/dist/index.d.ts",
@@ -4675,7 +4763,13 @@
       "./src/datasources/index.ts": [
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
-        "./src/datasources/db.datasource.ts"
+        "./src/datasources/lbdb.datasource.ts"
+      ],
+      "./src/datasources/lbdb.datasource.ts": [
+        "./node_modules/@loopback/core/dist/index.d.ts",
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
       ],
       "./src/index.ts": [
         "./node_modules/@types/node/ts3.2/util.d.ts",
@@ -4686,6 +4780,24 @@
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./src/application.ts"
+      ],
+      "./src/model-endpoints/bucket-details.rest-config.ts": [
+        "./node_modules/@loopback/rest-crud/dist/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/models/index.ts"
+      ],
+      "./src/model-endpoints/buckets.rest-config.ts": [
+        "./node_modules/@loopback/rest-crud/dist/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/models/index.ts"
+      ],
+      "./src/model-endpoints/products.rest-config.ts": [
+        "./node_modules/@loopback/rest-crud/dist/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/models/index.ts"
       ],
       "./src/model-endpoints/test-new-table.rest-config.ts": [
         "./node_modules/@loopback/rest-crud/dist/index.d.ts",
@@ -4699,11 +4811,30 @@
         "./node_modules/@types/node/util.d.ts",
         "./src/models/index.ts"
       ],
+      "./src/models/bucket-details.model.ts": [
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./src/models/buckets.model.ts": [
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/models/bucket-details.model.ts"
+      ],
       "./src/models/index.ts": [
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
+        "./src/models/bucket-details.model.ts",
+        "./src/models/buckets.model.ts",
+        "./src/models/products.model.ts",
         "./src/models/test-new-table.model.ts",
         "./src/models/todo.model.ts"
+      ],
+      "./src/models/products.model.ts": [
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
       ],
       "./src/models/test-new-table.model.ts": [
         "./node_modules/@loopback/repository/dist/index.d.ts",
@@ -4720,6 +4851,56 @@
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./src/application.ts"
+      ],
+      "./src/repositories/bucket-details.repository.ts": [
+        "./node_modules/@loopback/core/dist/index.d.ts",
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/datasources/index.ts",
+        "./src/models/index.ts"
+      ],
+      "./src/repositories/buckets.repository.ts": [
+        "./node_modules/@loopback/core/dist/index.d.ts",
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/datasources/index.ts",
+        "./src/models/index.ts",
+        "./src/repositories/bucket-details.repository.ts"
+      ],
+      "./src/repositories/index.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/repositories/bucket-details.repository.ts",
+        "./src/repositories/buckets.repository.ts",
+        "./src/repositories/products.repository.ts",
+        "./src/repositories/test-new-table.repository.ts",
+        "./src/repositories/todo.repository.ts"
+      ],
+      "./src/repositories/products.repository.ts": [
+        "./node_modules/@loopback/core/dist/index.d.ts",
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/datasources/index.ts",
+        "./src/models/index.ts"
+      ],
+      "./src/repositories/test-new-table.repository.ts": [
+        "./node_modules/@loopback/core/dist/index.d.ts",
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/datasources/index.ts",
+        "./src/models/index.ts"
+      ],
+      "./src/repositories/todo.repository.ts": [
+        "./node_modules/@loopback/core/dist/index.d.ts",
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/datasources/index.ts",
+        "./src/models/index.ts"
       ],
       "./src/sequence.ts": [
         "./node_modules/@loopback/context/dist/index.d.ts",
@@ -7375,24 +7556,83 @@
         "./node_modules/@loopback/rest/dist/index.d.ts",
         "./node_modules/loopback-datasource-juggler/index.d.ts"
       ],
+      "./src/controllers/buckets-bucket-details.controller.ts": [
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./src/models/index.ts",
+        "./src/repositories/index.ts"
+      ],
+      "./src/controllers/index.ts": [
+        "./src/controllers/buckets-bucket-details.controller.ts"
+      ],
       "./src/datasources/db.datasource.ts": [
         "./node_modules/@loopback/repository/dist/index.d.ts"
       ],
       "./src/datasources/index.ts": [
-        "./src/datasources/db.datasource.ts"
+        "./src/datasources/lbdb.datasource.ts"
+      ],
+      "./src/datasources/lbdb.datasource.ts": [
+        "./node_modules/@loopback/core/dist/index.d.ts",
+        "./node_modules/@loopback/repository/dist/index.d.ts"
       ],
       "./src/index.ts": [
         "./src/application.ts"
       ],
+      "./src/models/bucket-details.model.ts": [
+        "./node_modules/@loopback/repository/dist/index.d.ts"
+      ],
+      "./src/models/buckets.model.ts": [
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./src/models/bucket-details.model.ts"
+      ],
       "./src/models/index.ts": [
+        "./src/models/bucket-details.model.ts",
+        "./src/models/buckets.model.ts",
+        "./src/models/products.model.ts",
         "./src/models/test-new-table.model.ts",
         "./src/models/todo.model.ts"
+      ],
+      "./src/models/products.model.ts": [
+        "./node_modules/@loopback/repository/dist/index.d.ts"
       ],
       "./src/models/test-new-table.model.ts": [
         "./node_modules/@loopback/repository/dist/index.d.ts"
       ],
       "./src/models/todo.model.ts": [
         "./node_modules/@loopback/repository/dist/index.d.ts"
+      ],
+      "./src/repositories/bucket-details.repository.ts": [
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./src/datasources/index.ts",
+        "./src/models/index.ts"
+      ],
+      "./src/repositories/buckets.repository.ts": [
+        "./node_modules/@loopback/core/dist/index.d.ts",
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./src/datasources/index.ts",
+        "./src/models/index.ts",
+        "./src/repositories/bucket-details.repository.ts"
+      ],
+      "./src/repositories/index.ts": [
+        "./src/repositories/bucket-details.repository.ts",
+        "./src/repositories/buckets.repository.ts",
+        "./src/repositories/products.repository.ts",
+        "./src/repositories/test-new-table.repository.ts",
+        "./src/repositories/todo.repository.ts"
+      ],
+      "./src/repositories/products.repository.ts": [
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./src/datasources/index.ts",
+        "./src/models/index.ts"
+      ],
+      "./src/repositories/test-new-table.repository.ts": [
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./src/datasources/index.ts",
+        "./src/models/index.ts"
+      ],
+      "./src/repositories/todo.repository.ts": [
+        "./node_modules/@loopback/repository/dist/index.d.ts",
+        "./src/datasources/index.ts",
+        "./src/models/index.ts"
       ],
       "./src/sequence.ts": [
         "./node_modules/@loopback/context/dist/index.d.ts",
@@ -7784,16 +8024,141 @@
       "./src/__tests__/acceptance/todo.acceptance.ts",
       "./src/__tests__/helpers.ts",
       "./src/application.ts",
+      "./src/controllers/buckets-bucket-details.controller.ts",
+      "./src/controllers/index.ts",
       "./src/datasources/db.datasource.ts",
       "./src/datasources/index.ts",
+      "./src/datasources/lbdb.datasource.ts",
       "./src/index.ts",
       "./src/migrate.ts",
+      "./src/model-endpoints/bucket-details.rest-config.ts",
+      "./src/model-endpoints/buckets.rest-config.ts",
+      "./src/model-endpoints/products.rest-config.ts",
       "./src/model-endpoints/test-new-table.rest-config.ts",
       "./src/model-endpoints/todo.rest-config.ts",
+      "./src/models/bucket-details.model.ts",
+      "./src/models/buckets.model.ts",
       "./src/models/index.ts",
+      "./src/models/products.model.ts",
       "./src/models/test-new-table.model.ts",
       "./src/models/todo.model.ts",
       "./src/openapi-spec.ts",
+      [
+        "./src/repositories/bucket-details.repository.ts",
+        [
+          {
+            "file": "./src/repositories/bucket-details.repository.ts",
+            "start": 133,
+            "length": 12,
+            "messageText": "Module '\"../datasources\"' has no exported member 'DbDataSource'. Did you mean 'LbdbDataSource'?",
+            "category": 1,
+            "code": 2724,
+            "relatedInformation": [
+              {
+                "file": "./src/datasources/lbdb.datasource.ts",
+                "start": 652,
+                "length": 14,
+                "messageText": "'LbdbDataSource' is declared here.",
+                "category": 3,
+                "code": 2728
+              }
+            ]
+          }
+        ]
+      ],
+      [
+        "./src/repositories/buckets.repository.ts",
+        [
+          {
+            "file": "./src/repositories/buckets.repository.ts",
+            "start": 174,
+            "length": 12,
+            "messageText": "Module '\"../datasources\"' has no exported member 'DbDataSource'. Did you mean 'LbdbDataSource'?",
+            "category": 1,
+            "code": 2724,
+            "relatedInformation": [
+              {
+                "file": "./src/datasources/lbdb.datasource.ts",
+                "start": 652,
+                "length": 14,
+                "messageText": "'LbdbDataSource' is declared here.",
+                "category": 3,
+                "code": 2728
+              }
+            ]
+          }
+        ]
+      ],
+      "./src/repositories/index.ts",
+      [
+        "./src/repositories/products.repository.ts",
+        [
+          {
+            "file": "./src/repositories/products.repository.ts",
+            "start": 123,
+            "length": 12,
+            "messageText": "Module '\"../datasources\"' has no exported member 'DbDataSource'. Did you mean 'LbdbDataSource'?",
+            "category": 1,
+            "code": 2724,
+            "relatedInformation": [
+              {
+                "file": "./src/datasources/lbdb.datasource.ts",
+                "start": 652,
+                "length": 14,
+                "messageText": "'LbdbDataSource' is declared here.",
+                "category": 3,
+                "code": 2728
+              }
+            ]
+          }
+        ]
+      ],
+      [
+        "./src/repositories/test-new-table.repository.ts",
+        [
+          {
+            "file": "./src/repositories/test-new-table.repository.ts",
+            "start": 131,
+            "length": 12,
+            "messageText": "Module '\"../datasources\"' has no exported member 'DbDataSource'. Did you mean 'LbdbDataSource'?",
+            "category": 1,
+            "code": 2724,
+            "relatedInformation": [
+              {
+                "file": "./src/datasources/lbdb.datasource.ts",
+                "start": 652,
+                "length": 14,
+                "messageText": "'LbdbDataSource' is declared here.",
+                "category": 3,
+                "code": 2728
+              }
+            ]
+          }
+        ]
+      ],
+      [
+        "./src/repositories/todo.repository.ts",
+        [
+          {
+            "file": "./src/repositories/todo.repository.ts",
+            "start": 115,
+            "length": 12,
+            "messageText": "Module '\"../datasources\"' has no exported member 'DbDataSource'. Did you mean 'LbdbDataSource'?",
+            "category": 1,
+            "code": 2724,
+            "relatedInformation": [
+              {
+                "file": "./src/datasources/lbdb.datasource.ts",
+                "start": 652,
+                "length": 14,
+                "messageText": "'LbdbDataSource' is declared here.",
+                "category": 3,
+                "code": 2728
+              }
+            ]
+          }
+        ]
+      ],
       "./src/sequence.ts"
     ]
   },

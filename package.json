@@ -46,6 +46,7 @@
     "@loopback/rest": "^5.1.0",
     "@loopback/rest-crud": "^0.8.6",
     "@loopback/rest-explorer": "^2.2.3",
+    "loopback-connector-postgresql": "^5.0.1",
     "loopback-connector-rest": "^3.6.0",
     "tslib": "^2.0.0"
   },

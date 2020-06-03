@@ -3,24 +3,30 @@
 // This file is licensed under the MIT License.
 // License text available at https://opensource.org/licenses/MIT
 
-import {inject} from '@loopback/core';
+import {inject, lifeCycleObserver, LifeCycleObserver} from '@loopback/core';
 import {juggler} from '@loopback/repository';
 
 const config = {
-  name: 'db',
-  connector: 'memory',
-  localStorage: '',
-  file: './data/db.json',
+  name: 'lbdb',
+  connector: 'postgresql',
+  url: 'postgres://admin:1234@localhost/lbdb',
+  host: 'localhost',
+  port: 5432,
+  user: 'admin',
+  password: '1234',
+  database: 'lbdb',
 };
 
-export class DbDataSource extends juggler.DataSource {
-  static dataSourceName = 'db';
+@lifeCycleObserver('datasource')
+export class DbDataSource extends juggler.DataSource
+  implements LifeCycleObserver {
+  static dataSourceName = 'lbdb';
   static readonly defaultConfig = config;
 
   constructor(
-    @inject('datasources.config.db', {optional: true})
-    dbConfig: object = config,
+    @inject('datasources.config.lbdb', {optional: true})
+    dsConfig: object = config,
   ) {
-    super(dbConfig);
+    super(dsConfig);
   }
 }
