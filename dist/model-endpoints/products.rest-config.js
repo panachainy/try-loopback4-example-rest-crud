@@ -2,10 +2,10 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const models_1 = require("../models");
 const config = {
-    model: models_1.TestNewTable,
+    model: models_1.Products,
     pattern: 'CrudRest',
     dataSource: 'db',
-    basePath: '/test-new-tables',
+    basePath: '/products',
 };
 module.exports = config;
-//# sourceMappingURL=test-new-table.rest-config.js.map
+//# sourceMappingURL=products.rest-config.js.map

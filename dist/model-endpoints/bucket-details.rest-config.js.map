@@ -1,0 +1,1 @@
+{"version":3,"file":"bucket-details.rest-config.js","sourceRoot":"","sources":["../../src/model-endpoints/bucket-details.rest-config.ts"],"names":[],"mappings":";;AACA,sCAAwC;AAExC,MAAM,MAAM,GAA2B;IACrC,KAAK,EAAE,sBAAa;IACpB,OAAO,EAAE,UAAU;IACnB,UAAU,EAAE,IAAI;IAChB,QAAQ,EAAE,iBAAiB;CAC5B,CAAC;AACF,MAAM,CAAC,OAAO,GAAG,MAAM,CAAC"}

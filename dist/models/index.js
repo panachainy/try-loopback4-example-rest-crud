@@ -7,4 +7,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
 tslib_1.__exportStar(require("./todo.model"), exports);
 tslib_1.__exportStar(require("./test-new-table.model"), exports);
+tslib_1.__exportStar(require("./products.model"), exports);
+tslib_1.__exportStar(require("./buckets.model"), exports);
+tslib_1.__exportStar(require("./bucket-details.model"), exports);
 //# sourceMappingURL=index.js.map

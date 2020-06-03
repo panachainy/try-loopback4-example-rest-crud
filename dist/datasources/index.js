@@ -5,5 +5,6 @@
 // License text available at https://opensource.org/licenses/MIT
 Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
-tslib_1.__exportStar(require("./db.datasource"), exports);
+// export * from './db.datasource';
+tslib_1.__exportStar(require("./lbdb.datasource"), exports);
 //# sourceMappingURL=index.js.map
