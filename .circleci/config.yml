@@ -40,6 +40,10 @@ jobs:
           command: yarn build
 
       - run:
+          name: Migrate
+          command: yarn migrate
+
+      - run:
           name: Test
           command: |
              yarn test
