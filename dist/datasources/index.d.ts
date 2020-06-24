@@ -1,1 +1,1 @@
-export * from './lbdb.datasource';
+export * from './db.datasource';

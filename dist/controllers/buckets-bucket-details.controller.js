@@ -48,7 +48,9 @@ let BucketsBucketDetailsController = /** @class */ (() => {
             responses: {
                 '200': {
                     description: 'Buckets model instance',
-                    content: { 'application/json': { schema: rest_1.getModelSchemaRef(models_1.BucketDetails) } },
+                    content: {
+                        'application/json': { schema: rest_1.getModelSchemaRef(models_1.BucketDetails) },
+                    },
                 },
             },
         }),
@@ -59,7 +61,7 @@ let BucketsBucketDetailsController = /** @class */ (() => {
                     schema: rest_1.getModelSchemaRef(models_1.BucketDetails, {
                         title: 'NewBucketDetailsInBuckets',
                         exclude: ['id'],
-                        optional: ['bucketsId']
+                        optional: ['bucketsId'],
                     }),
                 },
             },

@@ -1866,14 +1866,14 @@
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
-      "./src/datasources/lbdb.datasource.ts": {
-        "version": "8bcaaeefbeeeeef22c903346c04e7a29b496df3d15ea1c13f320a524d96a5c0b",
-        "signature": "2a94aa0c3731d06694a6c8c55096aaea8123b9fa09d771427d162e3b97d85e97",
+      "./src/datasources/db.datasource.ts": {
+        "version": "74ad07f19ce86247b2c891a4fe854599ba910fca4432d151571eccd6d6bff4f6",
+        "signature": "a0d8e7a175191c5a6623976c04c11c485720923b3418f5949742001bd92ca80e",
         "affectsGlobalScope": false
       },
       "./src/datasources/index.ts": {
-        "version": "a31504de3a0c7f5177f101bd3f287ef0be4b7bc648332929e4cb32830dcdb647",
-        "signature": "2b588c8de46f01cd0abbb41b8f01c261b3a150e024fb154a070c2403b8941342",
+        "version": "4eba0bb69a38278d6dd088741ac655aa1153b8cfa3b5173d5408964331695880",
+        "signature": "834b70c56280af742429c81a7c992c940426144605c9604c22ffd68a9c327619",
         "affectsGlobalScope": false
       },
       "./src/repositories/bucket-details.repository.ts": {
@@ -1882,7 +1882,7 @@
         "affectsGlobalScope": false
       },
       "./src/repositories/buckets.repository.ts": {
-        "version": "c6c14c42647313a1b560d3d2f13b1cadd3ec5dafe5fc508e517d1a5e8ce2b175",
+        "version": "42688cb83d49b83816aa254a997e1322ae42c2691cec36fd241229b590c57985",
         "signature": "07244158ac68f095d8a7793ccbf26e8f1e3528caf538a11bb41a6d7f5f949fff",
         "affectsGlobalScope": false
       },
@@ -1907,18 +1907,13 @@
         "affectsGlobalScope": false
       },
       "./src/controllers/buckets-bucket-details.controller.ts": {
-        "version": "0ef97f0f073206c9b9dc6ffd64bf2464419e9ff3961ba17d51eb39890e1af772",
+        "version": "a15209e20d59cddcdd6e888deb1488695bcd1be9261365853b62cf7da0ca09c3",
         "signature": "aa49a082a57dc67a9a92320fd082a9c64704164c81303154d44197014e0ffc71",
         "affectsGlobalScope": false
       },
       "./src/controllers/index.ts": {
         "version": "5fc73180c73b760e1ce9f683eec1930c99e5470cf0c09750a449bf2482226fc6",
         "signature": "5fc73180c73b760e1ce9f683eec1930c99e5470cf0c09750a449bf2482226fc6",
-        "affectsGlobalScope": false
-      },
-      "./src/datasources/db.datasource.ts": {
-        "version": "35ab540519862d11c8a3093071d8831205adb5b8591bd1f9b72f23376b43b2a5",
-        "signature": "116bf4deff55c4f0be072d163a93a58358c03473df037dc9511884c0d6757921",
         "affectsGlobalScope": false
       },
       "./src/model-endpoints/bucket-details.rest-config.ts": {
@@ -4763,13 +4758,7 @@
       "./src/datasources/index.ts": [
         "./node_modules/@types/node/ts3.2/util.d.ts",
         "./node_modules/@types/node/util.d.ts",
-        "./src/datasources/lbdb.datasource.ts"
-      ],
-      "./src/datasources/lbdb.datasource.ts": [
-        "./node_modules/@loopback/core/dist/index.d.ts",
-        "./node_modules/@loopback/repository/dist/index.d.ts",
-        "./node_modules/@types/node/ts3.2/util.d.ts",
-        "./node_modules/@types/node/util.d.ts"
+        "./src/datasources/db.datasource.ts"
       ],
       "./src/index.ts": [
         "./node_modules/@types/node/ts3.2/util.d.ts",
@@ -7565,14 +7554,11 @@
         "./src/controllers/buckets-bucket-details.controller.ts"
       ],
       "./src/datasources/db.datasource.ts": [
+        "./node_modules/@loopback/core/dist/index.d.ts",
         "./node_modules/@loopback/repository/dist/index.d.ts"
       ],
       "./src/datasources/index.ts": [
-        "./src/datasources/lbdb.datasource.ts"
-      ],
-      "./src/datasources/lbdb.datasource.ts": [
-        "./node_modules/@loopback/core/dist/index.d.ts",
-        "./node_modules/@loopback/repository/dist/index.d.ts"
+        "./src/datasources/db.datasource.ts"
       ],
       "./src/index.ts": [
         "./src/application.ts"
@@ -8028,7 +8014,6 @@
       "./src/controllers/index.ts",
       "./src/datasources/db.datasource.ts",
       "./src/datasources/index.ts",
-      "./src/datasources/lbdb.datasource.ts",
       "./src/index.ts",
       "./src/migrate.ts",
       "./src/model-endpoints/bucket-details.rest-config.ts",
@@ -8043,122 +8028,12 @@
       "./src/models/test-new-table.model.ts",
       "./src/models/todo.model.ts",
       "./src/openapi-spec.ts",
-      [
-        "./src/repositories/bucket-details.repository.ts",
-        [
-          {
-            "file": "./src/repositories/bucket-details.repository.ts",
-            "start": 133,
-            "length": 12,
-            "messageText": "Module '\"../datasources\"' has no exported member 'DbDataSource'. Did you mean 'LbdbDataSource'?",
-            "category": 1,
-            "code": 2724,
-            "relatedInformation": [
-              {
-                "file": "./src/datasources/lbdb.datasource.ts",
-                "start": 652,
-                "length": 14,
-                "messageText": "'LbdbDataSource' is declared here.",
-                "category": 3,
-                "code": 2728
-              }
-            ]
-          }
-        ]
-      ],
-      [
-        "./src/repositories/buckets.repository.ts",
-        [
-          {
-            "file": "./src/repositories/buckets.repository.ts",
-            "start": 174,
-            "length": 12,
-            "messageText": "Module '\"../datasources\"' has no exported member 'DbDataSource'. Did you mean 'LbdbDataSource'?",
-            "category": 1,
-            "code": 2724,
-            "relatedInformation": [
-              {
-                "file": "./src/datasources/lbdb.datasource.ts",
-                "start": 652,
-                "length": 14,
-                "messageText": "'LbdbDataSource' is declared here.",
-                "category": 3,
-                "code": 2728
-              }
-            ]
-          }
-        ]
-      ],
+      "./src/repositories/bucket-details.repository.ts",
+      "./src/repositories/buckets.repository.ts",
       "./src/repositories/index.ts",
-      [
-        "./src/repositories/products.repository.ts",
-        [
-          {
-            "file": "./src/repositories/products.repository.ts",
-            "start": 123,
-            "length": 12,
-            "messageText": "Module '\"../datasources\"' has no exported member 'DbDataSource'. Did you mean 'LbdbDataSource'?",
-            "category": 1,
-            "code": 2724,
-            "relatedInformation": [
-              {
-                "file": "./src/datasources/lbdb.datasource.ts",
-                "start": 652,
-                "length": 14,
-                "messageText": "'LbdbDataSource' is declared here.",
-                "category": 3,
-                "code": 2728
-              }
-            ]
-          }
-        ]
-      ],
-      [
-        "./src/repositories/test-new-table.repository.ts",
-        [
-          {
-            "file": "./src/repositories/test-new-table.repository.ts",
-            "start": 131,
-            "length": 12,
-            "messageText": "Module '\"../datasources\"' has no exported member 'DbDataSource'. Did you mean 'LbdbDataSource'?",
-            "category": 1,
-            "code": 2724,
-            "relatedInformation": [
-              {
-                "file": "./src/datasources/lbdb.datasource.ts",
-                "start": 652,
-                "length": 14,
-                "messageText": "'LbdbDataSource' is declared here.",
-                "category": 3,
-                "code": 2728
-              }
-            ]
-          }
-        ]
-      ],
-      [
-        "./src/repositories/todo.repository.ts",
-        [
-          {
-            "file": "./src/repositories/todo.repository.ts",
-            "start": 115,
-            "length": 12,
-            "messageText": "Module '\"../datasources\"' has no exported member 'DbDataSource'. Did you mean 'LbdbDataSource'?",
-            "category": 1,
-            "code": 2724,
-            "relatedInformation": [
-              {
-                "file": "./src/datasources/lbdb.datasource.ts",
-                "start": 652,
-                "length": 14,
-                "messageText": "'LbdbDataSource' is declared here.",
-                "category": 3,
-                "code": 2728
-              }
-            ]
-          }
-        ]
-      ],
+      "./src/repositories/products.repository.ts",
+      "./src/repositories/test-new-table.repository.ts",
+      "./src/repositories/todo.repository.ts",
       "./src/sequence.ts"
     ]
   },

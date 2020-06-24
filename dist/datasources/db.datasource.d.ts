@@ -1,11 +1,16 @@
+import { LifeCycleObserver } from '@loopback/core';
 import { juggler } from '@loopback/repository';
-export declare class DbDataSource extends juggler.DataSource {
+export declare class DbDataSource extends juggler.DataSource implements LifeCycleObserver {
     static dataSourceName: string;
     static readonly defaultConfig: {
         name: string;
         connector: string;
-        localStorage: string;
-        file: string;
+        url: string;
+        host: string;
+        port: number;
+        user: string;
+        password: string;
+        database: string;
     };
-    constructor(dbConfig?: object);
+    constructor(dsConfig?: object);
 }
