@@ -7,16 +7,16 @@ jobs:
         environment:
           DB_USER: "admin"
           DB_PASSWORD: "1234"
-          DB_URL: "postgres://admin:1234@localhost:5432/test-db"
+          DB_URL: "postgres://admin:1234@localhost:5432/lbdb"
           DB_HOST: "localhost"
           DB_PORT: "5432"
           NODE_ENV: "development"
-          DATABASE_NAME: "test-db"
+          DATABASE_NAME: "lbdb"
       - image: circleci/postgres:9.6.5-alpine-ram
         environment:
           POSTGRES_USER: admin
           POSTGRES_PASSWORD: "1234"
-          POSTGRES_DB: test-db
+          POSTGRES_DB: lbdb
 
     steps:
       - checkout
