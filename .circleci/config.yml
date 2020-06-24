@@ -1,0 +1,47 @@
+version: 2.1
+
+jobs:
+  test:
+    docker:
+      - image: circleci/node:chakracore-10.13
+        environment:
+          DB_USER: "admin"
+          DB_PASSWORD: "1234"
+          DB_URL: "postgres://admin:1234@localhost:5432/test-db"
+          DB_HOST: "localhost"
+          DB_PORT: "5432"
+          NODE_ENV: "development"
+          DATABASE_NAME: "test-db"
+      - image: circleci/postgres:9.6.5-alpine-ram
+        environment:
+          POSTGRES_USER: admin
+          POSTGRES_PASSWORD: "1234"
+          POSTGRES_DB: test-db
+
+    steps:
+      - checkout
+      - setup_remote_docker
+
+      - restore_cache:
+          name: Restore Yarn Package Cache
+          keys:
+            - yarn-packages-{{ checksum "yarn.lock" }}
+      - run:
+          name: Install Dependencies
+          command: yarn install --immutable
+      - save_cache:
+          name: Save Yarn Package Cache
+          key: yarn-packages-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/.cache/yarn
+
+      - run:
+          name: Test
+          command: |
+             yarn test
+
+workflows:
+  version: 2.1
+  create_release:
+    jobs:
+      - test
