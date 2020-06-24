@@ -45,3 +45,4 @@ workflows:
   create_release:
     jobs:
       - test
+
